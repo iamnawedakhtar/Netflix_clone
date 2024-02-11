@@ -1,0 +1,379 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@700&display=swap');
+        body{
+            background-color: black;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Tinos:wght@700&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+               background-image: url(IN-en-20240122-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+               background-position: center center;
+               background-repeat: no-repeat;
+               background-size: max(1400px, 100vh);
+               height: 120vh;
+               position: relative;
+        }
+        .main .box{
+            height: 120vh;
+            width: 100%;
+            opacity: 0.6;
+            position: absolute;
+            top: 0;
+            background-color: black;
+        }
+        nav{
+            height: 62px;
+            display: flex;
+            justify-content: space-between;
+            width: 70vw;
+            margin: auto;
+            align-items: center;
+        }
+        nav img{
+            position: relative;
+            z-index: 10;
+            width: 114px;
+        }
+        nav button{
+            position: relative;
+            z-index: 10;
+            height: 30px;
+            width: 80px;
+            font-size: 15px;
+            margin-inline: 9px;
+            border-radius: 5px;
+            color: white;
+        }
+        nav select{
+            position: relative;
+            z-index: 10;
+            height: 30px;
+            width: 80px;
+            font-size: 15px;
+            margin-inline: 9px;
+            border-radius: 5px;
+            color: white;
+        }
+        .btns button
+        {
+            background-color: rgb(201, 34, 34);
+        }
+        .btns select
+        {
+            background: transparent;
+        }
+        .hero{
+            height: 100%;
+            color: white;
+            position: relative;
+            top: 20px;
+            z-index: 10;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Martel Sans', sans-serif;
+            gap: 10px;
+            padding: 0 10px;
+        }
+        .hero> :nth-child(1){
+            font-family: 'Poppins', sans-serif;
+            font-weight: 900;
+            font-size: 48px; text-align: center;
+        }
+        .hero> :nth-child(2){
+            font-weight: 400;
+            font-size: 24px; text-align: center;
+        }
+        .hero> :nth-child(3){
+            font-weight: 400;
+            font-size: 20px; text-align: center;
+        }
+        .main input{
+        padding: 0px  139px 0px 1px;
+        height: 48px;
+        color: white;
+        border-radius: 5px;
+        font-size: 15px;
+        background: transparent;
+        }
+        .hero button{
+            padding: 0px 7px 1px 4px;
+            text-align: center;
+            height: 48px;
+            color: white;
+            border-radius: 5px;  
+            width: 200px; 
+            font-size: 30px;
+            background-color: rgb(217, 39, 39);
+        }
+        .separation{
+            height: 8px;
+            background-color: rgb(58, 57, 57);
+        }
+        .last_line{
+            display: flex;
+
+            gap: 10px;
+        }
+        .container{
+            height: 90vh;
+            max-width: 70vw;
+            margin: auto;
+            background-color: black;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            gap: 20px;
+                   }
+        .box1 h2{
+                  font-size: 50px;
+                  margin: 20px 0px;
+                  font-family: 'Poppins', sans-serif; 
+        }
+        .box1 p{
+                  font-size: 23px;
+                  padding: 3px;
+                  font-weight: 600;
+        }
+        .SecImg{
+            position: relative;
+        }
+        .SecImg img{
+            width: 34vw;
+            position: relative;       
+            z-index: 10;
+        }
+        .SecImg video
+        {   
+            width: 30vw;
+            position: absolute;
+            top: 51px;
+            right: 0;
+        }
+        .container2{
+            height: 90vh;
+            max-width: 60vw;
+            background-color: black;
+            color: white;
+            margin: auto;
+            display: flex;
+            align-items: center;
+        }
+        .container2 img{
+            height: 50vh;
+        }
+         .text h2{
+            
+            font-family: sans-serif;
+            font-size: 48px;    
+            font-weight: 900;
+        }
+         .text p{
+            font-family: sans-serif;
+            font-size: 24px;    
+            font-weight: 400;
+        }
+
+        .boxshot{ 
+            position: relative;
+            background-color: black;
+            left: 58px;
+            bottom: 80px;
+            border: 2px solid white;
+            height: 18vh;
+            width: 19vw;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;    
+        }
+        .boxshot img{
+            height: 15vh;
+            padding: 2px;
+            margin: 5px;
+        }
+        .boxshot h2{
+          font-size: 16px;
+          font-weight: 400;
+        }
+        .boxshot h3{
+          font-size: 14px;
+          font-weight: 400;
+          color: blue;
+        }
+        .container3{
+            height: 90vh;
+            max-width: 75vw;
+            background-color: black;
+            color: white;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container3 h1{
+            font-family: sans-serif;
+            padding: 15px 0;
+            font-size: 48px;    
+            font-weight: 900;
+        }
+        .container3 p{
+            font-family: sans-serif;
+            font-size: 24px;    
+            font-weight: 400;
+        }
+        .rajmaTv{
+            position: relative;
+        }
+        .rajmaTv img{
+            width: 35vw;
+            position: relative;
+            z-index: 10;
+        }
+        .rajmaTv video{
+            width: 22vw;
+            position: absolute;
+            top: 27px;
+            right: 81px;
+        }
+        .container4{
+            height: 90vh;
+            max-width: 75vw;
+            background-color: black;
+            color: white;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container4 img{
+            height: 60vh;
+        }
+        .container4 h2{
+            font-family: sans-serif;
+            font-size: 48px;
+            font-weight: 900;
+            margin: 20px 0;
+        }
+        .container4 p{
+            font-family: sans-serif;
+            font-size: 25px;
+            font-weight: 400;
+        }
+        .container5{
+            height: 160vh;
+            max-width: 75vw;
+            background-color: black;
+            color: white;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .container5 h1{
+            font-family: sans-serif;
+             margin: 60px 0 10px 0 ; 
+            font-size: 48px;
+            font-weight: 1000; 
+        }
+        .container5 p{
+            font-family: sans-serif;
+            margin: 60px 0 10px 0 ; 
+            font-size: 20px;
+            font-weight: 400; 
+        }
+        .rectangles{
+            height: 20vh;
+            width: 72vw;
+            background-color: #313030;
+            margin: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: sans-serif;
+            font-size: 24px;
+            font-weight: 400;
+            padding: 20px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        .last0ne{
+            display: flex;
+            gap: 8px;
+            margin: 10px 0 100px 0;
+        }
+        .last0ne input{
+            padding: 0px  139px 0px 1px;
+            height: 48px;
+            color: white;
+            border-radius: 5px;
+            font-size: 15px;
+            background: transparent;
+        }
+        .last0ne button{
+            padding: 0px 7px 1px 4px;
+            text-align: center;
+            height: 48px;
+            color: white;
+            border-radius: 5px;  
+            width: 200px; 
+            font-size: 30px;
+            background-color: rgb(225, 25, 25);
+        }
+        .last_container{
+        height: 70vh;
+        max-width: 75vw;
+        background-color: black;
+        color: white;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        }
+        .container6{
+            height: 36vh;
+            width: 60vw;        
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            /* align-items: center; */
+        }
+        .container6 a{
+            color: rgba(193, 186, 186, 0.941);
+            font-size: 14px;
+            font-weight: 400;
+            font-family: sans-serif;
+        }
+        .grid-item{
+            padding: 5px ;
+            margin: 10px;
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
